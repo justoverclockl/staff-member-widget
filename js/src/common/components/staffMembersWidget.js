@@ -12,7 +12,7 @@ export default class MyWidget extends Widget {
   }
 
   oncreate(vnode) {
-    const getGroupFromExtensionSettings = app.forum.attribute('justoverclock-staff-members-widget.selectedGroups');
+    const getGroupFromExtensionSettings = app.forum.attribute('justoverclock-staff-members-widget.selectedGroups') || 1
     const getUserGroup = app.store
       .find('users', {
         filter: { group: `${getGroupFromExtensionSettings}` },
