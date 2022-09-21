@@ -27,7 +27,7 @@
             "title": "Staff Members Widget",
             "category": "feature",
             "icon": {
-                "name": "fas fa-users-crown",
+                "name": "fas fa-user-secret",
                 "color": "red",
                 "backgroundColor": "white"
             }
