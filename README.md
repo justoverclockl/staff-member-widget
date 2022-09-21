@@ -4,6 +4,9 @@
 
 A [Flarum](http://flarum.org) extension. Staff Members Widget
 
+![1](https://user-images.githubusercontent.com/79002016/191508926-64045abb-0619-4d05-9812-64094c7a4b28.png)
+
+
 ## Installation
 
 Install with composer:
